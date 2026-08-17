@@ -14,9 +14,11 @@
 
 ### GL.iNet GL-BE9300 Flint 3
 
-- **Category:** Router
+- **Category:** Wireless access point
 - **Wireless:** Wi-Fi 7
-- **Role:** Network router
+- **Role:** Access point
+- **Upstream:** Connected to the pfSense router
+- **Routing role:** Not the primary router
 - **Firmware version:** TBD
 - **Management address:** TBD
 
@@ -42,7 +44,7 @@
 - **Storage:** 64 GB SSD
 - **Operating system:** pfSense
 - **pfSense version:** TBD
-- **Role:** Firewall/router
+- **Role:** Primary router and firewall
 - **Management address:** TBD
 
 ## Compute
@@ -71,7 +73,7 @@
 - **RAM:** 8 GB
 - **Storage:** 128 GB SSD
 - **Operating system:** TBD
-- **Primary role:** Network services
+- **Primary role:** Pi-hole ad blocker
 - **Services:** Pi-hole ad blocker
 - **Management address:** TBD
 - **Cooling:** TBD
