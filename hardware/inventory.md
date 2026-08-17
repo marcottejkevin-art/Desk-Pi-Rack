@@ -138,15 +138,4 @@
 | **Port 7** | Unassigned | Available |
 | **Port 8** | Unassigned | Available |
 
-## Missing Details to Fill In
 
-- GL.iNet Flint 3 firmware version and management address
-- pfSense version and management address
-- TP-Link switch management address and firmware version
-- Beelink management address
-- Raspberry Pi 5 operating system, management address, and cooling
-- Hostnames
-- IP addresses / VLANs
-- Power connections and PDU outlet assignments
-- Network cabling
-- Remaining KVM port assignments
