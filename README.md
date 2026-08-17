@@ -24,6 +24,7 @@ Documentation and inventory for the desk-mounted home lab / mini server rack.
 | Switch | TP-Link TL-SG108E | 8 × Gigabit Ethernet, managed | Network switching |
 | Computer | Beelink EQ Mini PC / N150 | 12 GB LPDDR5, 500 GB SSD + 2 TB Seagate SSD, Linux Mint | Home media server / Jellyfin |
 | Computer | Raspberry Pi 5 | 8 GB RAM, 128 GB SSD | Pi-hole ad blocker |
+| Peripheral | KCEVE 8-Port HDMI KVM Switch | 8 computers, 1 monitor, HDMI, 4K @ 60 Hz, USB 3.0, shared keyboard/mouse, hotkey switching | Computer/console access |
 
 ## Documentation Status
 
@@ -42,6 +43,9 @@ This inventory is a work in progress. Specifications that have not yet been prov
 - Power supplies and power distribution
 - PDU outlet assignments
 - Cooling and cable management
+- KVM port assignments
 - Backup and maintenance notes
 
+## Security Note
 
+Do not commit passwords, API keys, private keys, Wi-Fi passwords, VPN secrets, or other credentials to this repository. Avoid publishing public IP addresses or other sensitive network information unless intentionally documented.
