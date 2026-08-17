@@ -62,11 +62,4 @@ The lab also uses an **8-port HDMI KVM switch** for centralized local console ac
 
 The KVM is treated as an **external rack accessory** rather than one of the eight physical rack positions unless its mounting position is documented separately.
 
-## Future Rack Documentation
 
-- Confirm exact U numbering orientation
-- Document PDU outlet assignments
-- Document KVM connections and which computers use each KVM port
-- Document network cable routing
-- Document power cable routing
-- Add a photo of the completed rack layout
