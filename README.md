@@ -4,17 +4,21 @@ Documentation and inventory for the desk-mounted home lab / mini server rack.
 
 ## Rack
 
-- **Rack:** GEEEKPi 8U, 10-inch Mini Server Rack
+- **Rack:** GEEEKPi DeskPi RackMate T1 8U, 10-inch Mini Server Rack
 - **Rack size:** 8U
 - **Rack width:** 10-inch
+- **Rack depth:** 7.87 inches
 - **PDU:** ElecVoztile 125 V / 15 A / 1,875 W
+- **Cooling:** Noctua NF-F12 5V intake + AC Infinity MULTIFAN S3 exhaust
 
 ## Current Inventory
 
 | Category | Device | Specifications | Role |
 |---|---|---|---|
-| Rack | GEEEKPi 8U 10-inch Mini Server Rack | 8U, 10-inch | Physical rack |
+| Rack | GEEEKPi DeskPi RackMate T1 | 8U, 10-inch, 7.87-inch depth | Physical rack |
 | Power | ElecVoztile PDU | 125 V, 15 A, 1,875 W | Power distribution |
+| Cooling | Noctua NF-F12 5V | 120 mm, 5 V, 1,500 RPM, USB-A adapter | Intake fan |
+| Cooling | AC Infinity MULTIFAN S3 | 120 mm, USB, UL-certified | Exhaust fan |
 | Network | GL.iNet GL-BE9300 Flint 3 | Wi-Fi 7 | Access point |
 | Firewall | Intel J1900 mini PC | 4 × Intel i210 Ethernet, 4 GB RAM, 64 GB SSD | pfSense router/firewall |
 | Switch | TP-Link TL-SG108E | 8 × Gigabit Ethernet, managed | Network switching |
