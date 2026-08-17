@@ -112,9 +112,10 @@
 
 ## Console / Peripheral Management
 
-### 8-Port HDMI KVM Switch
+### KCEVE 8-Port HDMI KVM Switch
 
 - **Category:** KVM switch
+- **Manufacturer:** KCEVE
 - **Computer inputs:** 8
 - **Monitor outputs:** 1
 - **Video:** HDMI, up to 4K @ 60 Hz
@@ -122,7 +123,6 @@
 - **Shared peripherals:** Keyboard and mouse
 - **Switching:** Hotkey switching supported
 - **Role:** Centralized keyboard, mouse, and monitor access for multiple computers
-- **Exact manufacturer/model:** TBD
 - **Rack position:** External rack accessory / position TBD
 
 ## Missing Details to Fill In
@@ -136,4 +136,4 @@
 - IP addresses / VLANs
 - Power connections and PDU outlet assignments
 - Network cabling
-- KVM manufacturer/model and port assignments
+- KVM port assignments
