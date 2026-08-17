@@ -110,6 +110,21 @@
 - **Management address:** TBD
 - **Cooling:** TBD
 
+## Console / Peripheral Management
+
+### 8-Port HDMI KVM Switch
+
+- **Category:** KVM switch
+- **Computer inputs:** 8
+- **Monitor outputs:** 1
+- **Video:** HDMI, up to 4K @ 60 Hz
+- **USB:** USB 3.0
+- **Shared peripherals:** Keyboard and mouse
+- **Switching:** Hotkey switching supported
+- **Role:** Centralized keyboard, mouse, and monitor access for multiple computers
+- **Exact manufacturer/model:** TBD
+- **Rack position:** External rack accessory / position TBD
+
 ## Missing Details to Fill In
 
 - GL.iNet Flint 3 firmware version and management address
@@ -117,8 +132,8 @@
 - TP-Link switch management address and firmware version
 - Beelink management address
 - Raspberry Pi 5 operating system, management address, and cooling
-- Rack U positions
 - Hostnames
 - IP addresses / VLANs
 - Power connections and PDU outlet assignments
 - Network cabling
+- KVM manufacturer/model and port assignments
