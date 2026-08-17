@@ -77,19 +77,4 @@ The desk lab uses the Intel J1900 mini PC running pfSense as the primary router 
 - **Role:** Network services
 - **Service:** Pi-hole ad blocker
 
-## Configuration Details To Document Later
 
-- pfSense WAN interface and LAN interface mapping
-- LAN subnet
-- DHCP configuration
-- DNS configuration
-- VLANs
-- Switch port assignments
-- Flint 3 access-point configuration
-- Hostnames
-- Static DHCP leases / reservations
-- Management IPs
-- Wi-Fi SSIDs
-- Wi-Fi VLAN assignments
-
-> **Security:** Do not document Wi-Fi passwords, VPN secrets, API keys, private keys, or other credentials in this repository.
