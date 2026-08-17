@@ -2,13 +2,15 @@
 
 ## Rack
 
-### GEEEKPi 8U 10-inch Mini Server Rack
+### GEEEKPi DeskPi RackMate T1 8U 10-inch Mini Server Rack
 
 - **Category:** Rack
+- **Model:** DeskPi RackMate T1
 - **Height:** 8U
 - **Width:** 10-inch
+- **Depth:** 7.87 inches
+- **Supported equipment:** Network, server, audio, and video equipment
 - **Role:** Physical rack for the desk lab
-- **Exact model / revision:** TBD
 
 ### ElecVoztile PDU
 
@@ -17,6 +19,28 @@
 - **Current rating:** 15 A
 - **Maximum rated power:** 1,875 W
 - **Role:** Rack power distribution
+
+## Cooling
+
+### Noctua NF-F12 5V
+
+- **Category:** Rack cooling fan
+- **Size:** 120 mm × 25 mm
+- **Voltage:** 5 V
+- **Speed:** Up to 1,500 RPM
+- **Connector:** 3-pin
+- **Power:** USB-A power adapter
+- **Role:** Intake fan
+- **Airflow direction:** Intake into the rack
+
+### AC Infinity MULTIFAN S3
+
+- **Category:** Rack cooling fan
+- **Size:** 120 mm
+- **Power:** USB
+- **Certification:** UL-certified
+- **Role:** Exhaust fan
+- **Airflow direction:** Exhaust out of the rack
 
 ## Networking
 
@@ -88,7 +112,6 @@
 
 ## Missing Details to Fill In
 
-- Exact GEEEKPi rack model / revision
 - GL.iNet Flint 3 firmware version and management address
 - pfSense version and management address
 - TP-Link switch management address and firmware version
@@ -98,5 +121,4 @@
 - Hostnames
 - IP addresses / VLANs
 - Power connections and PDU outlet assignments
-- Cooling hardware
 - Network cabling
