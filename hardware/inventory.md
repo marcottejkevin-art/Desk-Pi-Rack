@@ -10,6 +10,14 @@
 - **Role:** Physical rack for the desk lab
 - **Exact model / revision:** TBD
 
+### ElecVoztile PDU
+
+- **Category:** Power distribution unit
+- **Voltage:** 125 V
+- **Current rating:** 15 A
+- **Maximum rated power:** 1,875 W
+- **Role:** Rack power distribution
+
 ## Networking
 
 ### GL.iNet GL-BE9300 Flint 3
@@ -60,7 +68,7 @@
 - **Video:** 4K 60 Hz, dual HDMI
 - **Wireless:** Wi-Fi 6 / Bluetooth 5.2
 - **Networking:** Dual 2.5 GbE
-- **Operating system:** TBD
+- **Operating system:** Linux Mint
 - **Primary role:** Home media server
 - **Media software:** Jellyfin
 - **Media storage:** Movies and TV shows stored on the 2 TB Seagate SSD
@@ -84,11 +92,11 @@
 - GL.iNet Flint 3 firmware version and management address
 - pfSense version and management address
 - TP-Link switch management address and firmware version
-- Beelink operating system and management address
+- Beelink management address
 - Raspberry Pi 5 operating system, management address, and cooling
 - Rack U positions
 - Hostnames
 - IP addresses / VLANs
-- Power supplies
+- Power connections and PDU outlet assignments
 - Cooling hardware
 - Network cabling
