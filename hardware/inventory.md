@@ -79,7 +79,7 @@
 - **Role:** Primary router and firewall
 - **Management address:** TBD
 
-## Compute
+## Computer
 
 ### Beelink EQ Mini PC / Alder Lake-N150
 
