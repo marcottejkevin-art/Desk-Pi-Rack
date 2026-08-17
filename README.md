@@ -22,8 +22,8 @@ Documentation and inventory for the desk-mounted home lab / mini server rack.
 | Network | GL.iNet GL-BE9300 Flint 3 | Wi-Fi 7 | Access point |
 | Firewall | Intel J1900 mini PC | 4 × Intel i210 Ethernet, 4 GB RAM, 64 GB SSD | pfSense router/firewall |
 | Switch | TP-Link TL-SG108E | 8 × Gigabit Ethernet, managed | Network switching |
-| Compute | Beelink EQ Mini PC / N150 | 12 GB LPDDR5, 500 GB SSD + 2 TB Seagate SSD, Linux Mint | Home media server / Jellyfin |
-| Compute | Raspberry Pi 5 | 8 GB RAM, 128 GB SSD | Pi-hole ad blocker |
+| Computer | Beelink EQ Mini PC / N150 | 12 GB LPDDR5, 500 GB SSD + 2 TB Seagate SSD, Linux Mint | Home media server / Jellyfin |
+| Computer | Raspberry Pi 5 | 8 GB RAM, 128 GB SSD | Pi-hole ad blocker |
 
 ## Documentation Status
 
@@ -44,6 +44,4 @@ This inventory is a work in progress. Specifications that have not yet been prov
 - Cooling and cable management
 - Backup and maintenance notes
 
-## Security Note
 
-Do not commit passwords, API keys, private keys, Wi-Fi passwords, VPN secrets, or other credentials to this repository. Avoid publishing public IP addresses or other sensitive network information unless intentionally documented.
