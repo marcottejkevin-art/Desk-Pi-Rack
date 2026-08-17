@@ -20,14 +20,18 @@
 - **Firmware version:** TBD
 - **Management address:** TBD
 
-### TP-Link 8-Port Managed Switch
+### TP-Link TL-SG108E 8-Port Gigabit Easy Smart Managed Switch
 
 - **Category:** Network switch
-- **Ports:** 8
-- **Management:** Managed
-- **Exact model:** TBD
+- **Model:** TL-SG108E
+- **Ports:** 8 × Gigabit Ethernet
+- **Management:** Easy Smart Managed
+- **Form factor:** Desktop / wall-mount
+- **Construction:** Metal chassis with shielded ports
+- **Features:** QoS, VLAN, IGMP, LAG
 - **Role:** Network switching
 - **Management address:** TBD
+- **Firmware version:** TBD
 
 ### Intel J1900 Mini PC / pfSense Firewall
 
@@ -43,15 +47,22 @@
 
 ## Compute
 
-### Beelink Mini PC
+### Beelink EQ Mini PC / Alder Lake-N150
 
-- **Category:** Mini PC / server
+- **Category:** Mini PC / home media server
+- **Model:** Beelink EQ Mini PC
+- **CPU:** Intel N150, up to 3.6 GHz, 4 cores / 4 threads
 - **RAM:** 12 GB LPDDR5
-- **Storage:** 500 GB SSD
-- **Exact model:** TBD
-- **CPU:** TBD
+- **Internal storage:** 500 GB SSD
+- **Additional storage:** 2 TB Seagate SSD
+- **Video:** 4K 60 Hz, dual HDMI
+- **Wireless:** Wi-Fi 6 / Bluetooth 5.2
+- **Networking:** Dual 2.5 GbE
 - **Operating system:** TBD
-- **Role:** TBD
+- **Primary role:** Home media server
+- **Media software:** Jellyfin
+- **Media storage:** Movies and TV shows stored on the 2 TB Seagate SSD
+- **Management address:** TBD
 
 ### Raspberry Pi 5
 
@@ -60,15 +71,19 @@
 - **RAM:** 8 GB
 - **Storage:** 128 GB SSD
 - **Operating system:** TBD
-- **Role:** TBD
+- **Primary role:** Network services
+- **Services:** Pi-hole ad blocker
+- **Management address:** TBD
 - **Cooling:** TBD
 
 ## Missing Details to Fill In
 
-- Exact TP-Link switch model
-- Exact Beelink model and CPU
-- Raspberry Pi 5 operating system and role
-- Beelink operating system and role
+- Exact GEEEKPi rack model / revision
+- GL.iNet Flint 3 firmware version and management address
+- pfSense version and management address
+- TP-Link switch management address and firmware version
+- Beelink operating system and management address
+- Raspberry Pi 5 operating system, management address, and cooling
 - Rack U positions
 - Hostnames
 - IP addresses / VLANs
