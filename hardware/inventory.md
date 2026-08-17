@@ -125,6 +125,19 @@
 - **Role:** Centralized keyboard, mouse, and monitor access for multiple computers
 - **Rack position:** External rack accessory / position TBD
 
+#### KVM Port Assignments
+
+| KVM Port | Connected Computer | Role |
+|---|---|---|
+| **Port 1** | Intel J1900 mini PC | pfSense router/firewall |
+| **Port 2** | Beelink EQ Mini PC / N150 | Home media server / Jellyfin |
+| **Port 3** | Raspberry Pi 5 | Pi-hole ad blocker |
+| **Port 4** | Unassigned | Available |
+| **Port 5** | Unassigned | Available |
+| **Port 6** | Unassigned | Available |
+| **Port 7** | Unassigned | Available |
+| **Port 8** | Unassigned | Available |
+
 ## Missing Details to Fill In
 
 - GL.iNet Flint 3 firmware version and management address
@@ -136,4 +149,4 @@
 - IP addresses / VLANs
 - Power connections and PDU outlet assignments
 - Network cabling
-- KVM port assignments
+- Remaining KVM port assignments
