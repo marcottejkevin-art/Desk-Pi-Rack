@@ -46,6 +46,4 @@ This inventory is a work in progress. Specifications that have not yet been prov
 - KVM port assignments
 - Backup and maintenance notes
 
-## Security Note
 
-Do not commit passwords, API keys, private keys, Wi-Fi passwords, VPN secrets, or other credentials to this repository. Avoid publishing public IP addresses or other sensitive network information unless intentionally documented.
