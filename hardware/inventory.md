@@ -79,7 +79,22 @@
 - **Role:** Primary router and firewall
 - **Management address:** TBD
 
-## Computer
+## Computers
+
+### Minisforum X1 Lite-255 AI Server
+
+- **Category:** Mini PC / AI server
+- **Model:** MINISFORUM X1 Lite-255
+- **CPU:** AMD Ryzen 7 255, 8 cores / 16 threads, up to 4.9 GHz
+- **RAM:** 32 GB DDR5
+- **Internal storage:** 1 TB SSD
+- **Networking:** 2.5 GbE
+- **Wireless:** Wi-Fi 6E / Bluetooth 5.2
+- **Video:** USB4 / HDMI / DisplayPort, up to 8K output
+- **Operating system:** Ubuntu Server
+- **Primary role:** AI server
+- **Workload:** Runs an LLM continuously (24/7)
+- **Management address:** TBD
 
 ### Beelink EQ Mini PC / Alder Lake-N150
 
@@ -138,4 +153,16 @@
 | **Port 7** | Unassigned | Available |
 | **Port 8** | Unassigned | Available |
 
+## Missing Details to Fill In
 
+- GL.iNet Flint 3 firmware version and management address
+- pfSense version and management address
+- TP-Link switch management address and firmware version
+- Beelink management address
+- Minisforum AI server management address and LLM details
+- Raspberry Pi 5 operating system, management address, and cooling
+- Hostnames
+- IP addresses / VLANs
+- Power connections and PDU outlet assignments
+- Network cabling
+- Remaining KVM port assignments
