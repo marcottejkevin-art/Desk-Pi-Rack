@@ -7,20 +7,23 @@
 - **Width:** 10-inch
 - **Depth:** 7.87 inches
 
-## Physical U Positions
+## Physical Equipment Order
 
-The rack is documented from **U1 at the top to U8 at the bottom** based on the current physical arrangement provided for the lab.
+The current physical arrangement is documented from **top to bottom**. The Minisforum X1 Lite-255 AI server was added between the network switch and the Beelink home media server.
 
-| U Position | Equipment | Role |
+| Order | Equipment | Role |
 |---|---|---|
-| **U1** | GL.iNet GL-BE9300 Flint 3 | Wi-Fi 7 access point |
-| **U2** | AC Infinity MULTIFAN S3 | Exhaust fan |
-| **U3** | TP-Link TL-SG108E | 8-port managed Gigabit switch |
-| **U4** | Raspberry Pi 5 | Pi-hole ad blocker |
-| **U5** | Beelink EQ Mini PC / Intel N150 | Jellyfin home media server |
-| **U6** | Intel J1900 mini PC | pfSense router/firewall |
-| **U7** | ElecVoztile PDU | Rack power distribution |
-| **U8** | Noctua NF-F12 5V | Intake fan |
+| **1** | GL.iNet GL-BE9300 Flint 3 | Wi-Fi 7 access point |
+| **2** | AC Infinity MULTIFAN S3 | Exhaust fan |
+| **3** | TP-Link TL-SG108E | 8-port managed Gigabit switch |
+| **4** | MINISFORUM X1 Lite-255 | AI server / 24/7 LLM |
+| **5** | Raspberry Pi 5 | Pi-hole ad blocker |
+| **6** | Beelink EQ Mini PC / Intel N150 | Jellyfin home media server |
+| **7** | Intel J1900 mini PC | pfSense router/firewall |
+| **8** | ElecVoztile PDU | Rack power distribution |
+| **9** | Noctua NF-F12 5V | Intake fan |
+
+> **Rack capacity note:** The rack is rated at 8U, while the current physical equipment list contains 9 pieces of equipment. Several items (including the fans, PDU, and mini PCs) do not necessarily occupy a full conventional 1U rack space. The table therefore records the physical order rather than claiming that each item occupies exactly one rack unit.
 
 ## Airflow
 
@@ -30,27 +33,27 @@ The rack uses a dedicated intake and exhaust fan arrangement:
              Rack top
                 |
                 v
-        +---------------+
- U1    | Flint 3        |
- U2    | EXHAUST FAN    | ---> Exhaust airflow
- U3    | Network switch |
- U4    | Raspberry Pi 5 |
- U5    | Beelink/N150   |
- U6    | pfSense J1900  |
- U7    | PDU            |
- U8    | INTAKE FAN     | <--- Intake airflow
-        +---------------+
+        +-------------------+
+        | Flint 3           |
+        | EXHAUST FAN       | ---> Exhaust airflow
+        | Network switch    |
+        | AI Server         |
+        | Raspberry Pi 5    |
+        | Beelink / N150    |
+        | pfSense J1900     |
+        | PDU               |
+        | INTAKE FAN        | <--- Intake airflow
+        +-------------------+
                 ^
                 |
              Rack bottom
 ```
 
-> **Note:** The U positions represent the user's current physical arrangement. Some equipment may not occupy a full rack unit in the conventional rack-mount sense.
-
 ## KVM Switch
 
-The lab also uses an **8-port HDMI KVM switch** for centralized local console access.
+The lab also uses a **KCEVE 8-port HDMI KVM switch** for centralized local console access.
 
+- **Manufacturer:** KCEVE
 - **Type:** HDMI KVM switch
 - **Ports:** 8 computers / 1 monitor
 - **USB:** USB 3.0
@@ -58,8 +61,17 @@ The lab also uses an **8-port HDMI KVM switch** for centralized local console ac
 - **USB peripherals:** Shared keyboard and mouse
 - **Switching:** Hotkey switching supported
 - **Role:** Centralized keyboard, mouse, and monitor access for multiple computers
-- **Exact manufacturer/model:** TBD
+- **Physical position:** External rack accessory
 
-The KVM is treated as an **external rack accessory** rather than one of the eight physical rack positions unless its mounting position is documented separately.
+### KVM Port Assignments
 
-
+| KVM Port | Connected Computer | Role |
+|---|---|---|
+| **Port 1** | Intel J1900 mini PC | pfSense router/firewall |
+| **Port 2** | Beelink EQ Mini PC / N150 | Home media server / Jellyfin |
+| **Port 3** | Raspberry Pi 5 | Pi-hole ad blocker |
+| **Port 4** | Unassigned | Available |
+| **Port 5** | Unassigned | Available |
+| **Port 6** | Unassigned | Available |
+| **Port 7** | Unassigned | Available |
+| **Port 8** | Unassigned | Available |
