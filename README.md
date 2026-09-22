@@ -23,8 +23,8 @@ Documentation and inventory for the desk-mounted home lab / mini server rack.
 | Firewall | Intel J1900 mini PC | 4 × Intel i210 Ethernet, 4 GB RAM, 64 GB SSD | pfSense router/firewall |
 | Switch | TP-Link TL-SG108E | 8 × Gigabit Ethernet, managed | Network switching |
 | Home Lab Server | MINISFORUM X1 Lite-255 | AMD Ryzen 7 255, 8C/16T, up to 4.9 GHz, 32 GB DDR5, 1 TB SSD, Ubuntu Server | Uptime Kuma, Portainer, Docker containers |
-| AI Server | Desktop PC | Intel Core i5-13600K, RTX 4070, 32 GB DDR5, 2 TB SSD | 24/7 AI server |
-| Computer | Beelink EQ Mini PC / N150 | 12 GB LPDDR5, 500 GB SSD + 2 TB Seagate SSD, Linux Mint | Home media server / Jellyfin |
+| AI Server | Desktop PC | Intel Core i5-13600K, RTX 4070 12 GB, 32 GB DDR5, 2 TB SSD | 24/7 AI server |
+| Computer | Beelink EQ Mini PC / N150 | 12 GB LPDDR5, 500 GB SSD + 2 TB Seagate SSD, Kali Linux | Kali Linux workstation |
 | Computer | Raspberry Pi 5 | 8 GB RAM, 128 GB SSD | Pi-hole ad blocker |
 | Peripheral | KCEVE 8-Port HDMI KVM Switch | 8 computers, 1 monitor, HDMI, 4K @ 60 Hz, USB 3.0, shared keyboard/mouse, hotkey switching | Computer/console access |
 
@@ -45,7 +45,7 @@ A separate desktop PC is used as a dedicated **24/7 AI server**.
 
 - **CPU:** Intel Core i5-13600K
 - **GPU:** NVIDIA GeForce RTX 4070
-- **VRAM:** TBD
+- **VRAM:** 12 GB
 - **RAM:** 32 GB DDR5
 - **Storage:** 2 TB SSD
 - **Role:** AI server
@@ -64,7 +64,7 @@ This inventory is a work in progress. Specifications that have not yet been prov
 - Switch model and configuration
 - Minisforum Docker host and container inventory
 - 24/7 AI server software and LLM configuration
-- Beelink operating system and configuration
+- Beelink Kali Linux configuration
 - Raspberry Pi OS and configuration
 - Hostnames and IP addressing
 - Power supplies and power distribution
