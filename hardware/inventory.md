@@ -81,9 +81,9 @@
 
 ## Computers
 
-### Minisforum X1 Lite-255 AI Server
+### Minisforum X1 Lite-255
 
-- **Category:** Mini PC / AI server
+- **Category:** Mini PC / home lab server
 - **Model:** MINISFORUM X1 Lite-255
 - **CPU:** AMD Ryzen 7 255, 8 cores / 16 threads, up to 4.9 GHz
 - **RAM:** 32 GB DDR5
@@ -92,8 +92,10 @@
 - **Wireless:** Wi-Fi 6E / Bluetooth 5.2
 - **Video:** USB4 / HDMI / DisplayPort, up to 8K output
 - **Operating system:** Ubuntu Server
-- **Primary role:** AI server
-- **Workload:** Runs an LLM continuously (24/7)
+- **Primary role:** Home lab services server
+- **Services:** Uptime Kuma, Portainer
+- **Containers:** Hosts the Docker containers for the home lab
+- **Uptime:** Intended to run continuously / 24×7
 - **Management address:** TBD
 
 ### Beelink EQ Mini PC / Alder Lake-N150
@@ -159,7 +161,7 @@
 - pfSense version and management address
 - TP-Link switch management address and firmware version
 - Beelink management address
-- Minisforum AI server management address and LLM details
+- Minisforum server management address and Docker container inventory
 - Raspberry Pi 5 operating system, management address, and cooling
 - Hostnames
 - IP addresses / VLANs
