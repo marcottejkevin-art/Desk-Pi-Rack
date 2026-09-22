@@ -113,7 +113,7 @@
 
 ### Beelink EQ Mini PC / Alder Lake-N150
 
-- **Category:** Mini PC / home media server
+- **Category:** Mini PC / Kali Linux workstation
 - **Model:** Beelink EQ Mini PC
 - **CPU:** Intel N150, up to 3.6 GHz, 4 cores / 4 threads
 - **RAM:** 12 GB LPDDR5
@@ -122,10 +122,9 @@
 - **Video:** 4K 60 Hz, dual HDMI
 - **Wireless:** Wi-Fi 6 / Bluetooth 5.2
 - **Networking:** Dual 2.5 GbE
-- **Operating system:** Linux Mint
-- **Primary role:** Home media server
-- **Media software:** Jellyfin
-- **Media storage:** Movies and TV shows stored on the 2 TB Seagate SSD
+- **Operating system:** Kali Linux
+- **Primary role:** Kali Linux workstation
+- **Additional storage use:** 2 TB Seagate SSD
 - **Management address:** TBD
 
 ### Raspberry Pi 5
@@ -160,7 +159,7 @@
 | KVM Port | Connected Computer | Role |
 |---|---|---|
 | **Port 1** | Intel J1900 mini PC | pfSense router/firewall |
-| **Port 2** | Beelink EQ Mini PC / N150 | Home media server / Jellyfin |
+| **Port 2** | Beelink EQ Mini PC / N150 | Kali Linux workstation |
 | **Port 3** | Raspberry Pi 5 | Pi-hole ad blocker |
 | **Port 4** | Unassigned | Available |
 | **Port 5** | Unassigned | Available |
