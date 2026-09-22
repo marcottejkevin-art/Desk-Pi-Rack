@@ -103,7 +103,7 @@
 - **Category:** Desktop PC / AI server
 - **CPU:** Intel Core i5-13600K
 - **GPU:** NVIDIA GeForce RTX 4070
-- **GPU VRAM:** TBD
+- **GPU VRAM:** 12 GB
 - **RAM:** 32 GB DDR5
 - **Storage:** 2 TB SSD
 - **Role:** Dedicated AI server
@@ -175,7 +175,7 @@
 - TP-Link switch management address and firmware version
 - Beelink management address
 - Minisforum server management address and Docker container inventory
-- AI server operating system, management address, AI/LLM software, and GPU VRAM
+- AI server operating system, management address, and AI/LLM software
 - Raspberry Pi 5 operating system, management address, and cooling
 - Hostnames
 - IP addresses / VLANs
