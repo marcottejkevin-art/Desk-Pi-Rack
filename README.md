@@ -22,10 +22,21 @@ Documentation and inventory for the desk-mounted home lab / mini server rack.
 | Network | GL.iNet GL-BE9300 Flint 3 | Wi-Fi 7 | Access point |
 | Firewall | Intel J1900 mini PC | 4 × Intel i210 Ethernet, 4 GB RAM, 64 GB SSD | pfSense router/firewall |
 | Switch | TP-Link TL-SG108E | 8 × Gigabit Ethernet, managed | Network switching |
-| AI Server | MINISFORUM X1 Lite-255 | AMD Ryzen 7 255, 8C/16T, up to 4.9 GHz, 32 GB DDR5, 1 TB SSD, Ubuntu Server | 24/7 AI server / LLM |
+| Home Lab Server | MINISFORUM X1 Lite-255 | AMD Ryzen 7 255, 8C/16T, up to 4.9 GHz, 32 GB DDR5, 1 TB SSD, Ubuntu Server | Uptime Kuma, Portainer, Docker containers |
 | Computer | Beelink EQ Mini PC / N150 | 12 GB LPDDR5, 500 GB SSD + 2 TB Seagate SSD, Linux Mint | Home media server / Jellyfin |
 | Computer | Raspberry Pi 5 | 8 GB RAM, 128 GB SSD | Pi-hole ad blocker |
 | Peripheral | KCEVE 8-Port HDMI KVM Switch | 8 computers, 1 monitor, HDMI, 4K @ 60 Hz, USB 3.0, shared keyboard/mouse, hotkey switching | Computer/console access |
+
+## MINISFORUM Home Lab Server
+
+The MINISFORUM X1 Lite-255 runs **Ubuntu Server** and serves as the main Docker host for the rack's containerized home-lab services.
+
+- **Monitoring:** Uptime Kuma
+- **Container management:** Portainer
+- **Container runtime:** Docker
+- **Uptime:** Intended to run continuously / 24×7
+
+The Docker container inventory can be documented here as additional services are added.
 
 ## Documentation Status
 
@@ -38,7 +49,7 @@ This inventory is a work in progress. Specifications that have not yet been prov
 - Router/access-point configuration
 - pfSense firewall details
 - Switch model and configuration
-- AI server / LLM configuration
+- Minisforum Docker host and container inventory
 - Beelink operating system and configuration
 - Raspberry Pi OS and configuration
 - Hostnames and IP addressing
