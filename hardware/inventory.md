@@ -98,6 +98,19 @@
 - **Uptime:** Intended to run continuously / 24×7
 - **Management address:** TBD
 
+### 24/7 AI Server Desktop PC
+
+- **Category:** Desktop PC / AI server
+- **CPU:** Intel Core i5-13600K
+- **GPU:** NVIDIA GeForce RTX 4070
+- **GPU VRAM:** TBD
+- **RAM:** 32 GB DDR5
+- **Storage:** 2 TB SSD
+- **Role:** Dedicated AI server
+- **Uptime:** Intended to run continuously / 24×7
+- **Operating system:** TBD
+- **AI/LLM software:** TBD
+
 ### Beelink EQ Mini PC / Alder Lake-N150
 
 - **Category:** Mini PC / home media server
@@ -162,6 +175,7 @@
 - TP-Link switch management address and firmware version
 - Beelink management address
 - Minisforum server management address and Docker container inventory
+- AI server operating system, management address, AI/LLM software, and GPU VRAM
 - Raspberry Pi 5 operating system, management address, and cooling
 - Hostnames
 - IP addresses / VLANs
